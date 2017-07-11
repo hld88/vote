@@ -1,0 +1,147 @@
+.content_bg{
+	/*background: red;*/
+}
+.cont_bg{
+	width: 100%;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size:100% 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.cont_detalis{
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	background: #fff;
+	padding-bottom: 4%;
+}
+.cont_detalis .title{
+	position: relative;
+	padding: 1.08rem 0;
+	
+}
+.cont_detalis .title span{
+	display: block;
+	font-size: 1.333rem;
+}
+.cont_detalis .title span:before{
+	content: "";
+	width: 1.666rem;
+	height: 1.666rem;
+	background:url(../img/p_1.png) no-repeat;
+	display: inline-block;
+	background-size:100%;
+	vertical-align: middle;
+}
+.rangking_name{
+	width: 100%;
+	background: red;
+	overflow: hidden;
+	background: url(../img/r_bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.rangking_name .name_first,.name_second,.name_third{
+	width: 33.3%;
+	height: 100px;
+	padding: 10px 0;
+	float: left;
+}
+.rangking_name .name_icon{
+	width: 2.916rem;
+	height: 2.916rem;
+	background: red;
+	margin: 0 auto;
+	line-height: 2.5rem;
+}
+.rangking_name .name_first .name_icon{
+	background: url(../img/r_2.png) no-repeat;
+	background-size:100%;
+}
+.rangking_name .name_second .name_icon{
+	background: url(../img/r_1.png) no-repeat;
+	background-size:100%;
+}
+.rangking_name .name_third .name_icon{
+	background: url(../img/r_3.png) no-repeat;
+	background-size:100%;
+}
+.rang_name{
+	font-size: 1.25rem;
+	text-align: center;
+	line-height: 1.666rem;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.rang_num{
+	font-size: 1rem;
+	text-align: center;
+	line-height: 1.666rem;
+}
+.rang_last{
+	font-size: 1.583rem;
+	text-align: center;
+	color: #ff0000;
+	line-height: 1.666rem;
+}
+/***********************投票内容*************/
+.rangking_number{
+	width: 100%;
+	/*height: 100px;*/
+	overflow: hidden;
+	background: #fff;
+}
+.rangking_number .number_name{
+	padding: 4px 0;
+}
+.rangking_number .number_name ul{
+	overflow: hidden;
+}
+.rangking_number .number_name ul li{
+	float: left;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	text-align: center;
+	color: #aaa;
+}
+.rangking_number ul li:nth-child(1){
+	width: 15%;
+}
+.rangking_number ul li:nth-child(2){
+	width: 15%;
+}
+.rangking_number ul li:nth-child(3){
+	width: 46%;
+	text-align: left;
+	margin-left: 4%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.rangking_number ul li:nth-child(4){
+	width: 20%;
+}
+.number_list .list_first{
+	
+	overflow: hidden;
+	border-radius: 2px;
+	padding: 4px 0;
+}
+.number_list .list_first:nth-child(odd){
+	background: #fbfbfb;
+}
+.number_list .list_first li{
+	float: left;
+	text-align: center;
+	line-height: 2.5rem;
+	height: 2.5rem;
+}
+.list_num{font-size: 1.5rem;color: #666;}
+.serial{font-size: 1.25rem;color: #999;}
+.list_vote{font-size: 1.25rem;color: #666;}
+.list_result{font-size: 1.5rem;color: #ff0000;}
+.footer{
+	margin-top: 2%;
+}

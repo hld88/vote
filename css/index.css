@@ -1,0 +1,245 @@
+.vote_cont{
+	width: 100%;
+	background: url(../img/bg.jpg) repeat;
+	background-size: 100% 100%;
+	position: relative;	/*height: 1000px;*/
+	padding-bottom: 4%;
+}
+.vote_cont .vote_details{
+	padding: 0.833rem 0;
+}
+.vote_cont .vote_details .vote_top{
+	font-size: 1.333rem;
+	padding: 0 0.833rem;
+	line-height: 1.92rem;
+}
+.vote_cont .vote_details .vote_rule{
+	font-size: 1.0rem;
+	background: #fbfbfb;
+	padding: 0.833rem;
+	margin-top: 0.416rem;
+	color: #666;
+}
+.vote_cont .vote_details .vote_rule p{
+	display:block;
+	height: 1.666rem;
+	line-height: 1.666rem;
+}
+.vote_time{
+	padding:0 0.833rem;
+	font-size: 1.166rem
+	height:1.666rem;
+	line-height: 1.666rem;
+	margin-top:0.416rem;
+	position: relative;
+}
+.time_title{
+	position: relative;
+}
+.time_title:before{
+	content: '';
+	width: 1rem;
+	height: 1.166rem;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/jitime.png) no-repeat;
+	background-size:100% 100%;
+	margin-right: 1%;
+}
+.vote_time .time_list{
+	display: inline-block;
+	font-size: 0.583rem;
+}
+.vote_time .time_list span{
+	display: inline-block;
+	font-size: 1.166rem;
+}
+.sign_up{
+	width: 100%;
+	/*background: red;*/
+	margin-top: 0.416rem;
+}
+.sign_up .sign_up_list{
+	width: 97%;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 3.333rem;
+	line-height: 3.333rem;
+}
+.sign_up .sign_up_list li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #fff;
+	background: red;
+	height: 3.333rem;
+	line-height: 3.333rem;
+}
+.sign_up .sign_up_list li:last-child{
+	width: 23%;
+	margin-left: 2px;
+}
+.sign_up .sign_up_list li .p_frist{
+	font-size: 0.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+.sign_up .sign_up_list li .p_two{
+	font-size: 1.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+.sign_up .sign_up_list li .p_last{
+	font-size: 1.25rem;
+	height: 3.333rem;
+	line-height: 3.333rem;
+	vertical-align: middle;
+}
+.vote_search{
+	position: relative;
+	margin-top: 0.416rem;
+	padding:0 0.416rem;
+}
+.vote_input{
+	width: 100%;
+	border: 1px solid #d7d7d7;
+	box-sizing: border-box;
+	border-radius: 1.666rem;
+	height:2.916rem;
+	line-height: 2.916rem;
+	font-size: 1.083rem;
+	padding: 0.166rem 1.416rem;
+	outline: none;
+}
+.search_img{
+	position: absolute;
+	right: 1.666rem;
+	width: 1.833rem;
+	height: 1.833rem;
+	line-height: 1.833rem;
+	/*background:;*/
+	top: 0.5rem;
+	display: block;
+	box-sizing: border-box;
+	z-index: 100;
+	background: url(../img/search.png) no-repeat;
+	background-size:100%;
+	/*background: ;*/
+	/*padding: 1.2rem 2.0rem;*/
+}
+.vote_list{
+	width: 96%;
+	/*background: beige;*/
+	border-top: 1px solid #ececec;
+	padding-top: 2%;
+	overflow: hidden;
+	margin: 0.833rem 2% 0 2%;
+	padding-bottom: 2.5rem;
+	border-bottom: 1px solid #ddd;
+}
+.vote_list .vote_wrape .vote_left{
+	width: 49%;
+	float: left;
+	background: #fff;
+}
+.vote_list .vote_wrape .vote_left .one_vote,.vote_right .one_vote{
+	position: relative;
+	margin-bottom: 0.833rem;
+}
+.vote_list .vote_wrape .vote_left .one_vote .num,.vote_right .one_vote .num{
+	position: absolute;
+	width: 2.833rem;
+	height: 2.833rem;
+	line-height: 2.833rem;;
+	background: red;
+	top: 0;
+	left: 0;
+	border-radius: 0 0 100% 100%;
+	color: #fff;
+	text-align: center;
+}
+.vote_list .vote_wrape .vote_left .one_vote .num em,.vote_right .one_vote .num em{
+	font-size: 1rem;
+}
+.vote_list .vote_wrape .vote_left .one_vote .pic img,.vote_right .one_vote .pic img{
+	width: 12.25rem;
+	display: block;
+}
+
+.vote_name{
+	font-size: 1.333rem;
+	color: #333333;
+	margin-top: 0.416rem;
+}
+.vote_map{
+	font-size: 1rem;
+	color: #666666;
+}
+.vote_num{
+	font-size: 1.5rem;
+	color: #ff0000;
+}
+.vote_text{
+	font-size: 1rem;
+}
+.vote_last{
+	margin-top: 0.416rem;
+}
+.vote_me{
+	width: 100%;
+	height: 3.333rem;
+	line-height: 3.333rem;
+	background: #fc5365;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.416rem;
+	margin-top: 0.416rem;
+	font-size: 1.25rem;
+}
+.vote_list .vote_wrape .vote_right{
+	width: 49%;
+	float: right;
+	background: #fff;
+	overflow: hidden;
+}
+.vote_page{
+	padding: 1.25rem 1.666rem;
+	text-align: center;
+}
+.vote_page .pre{
+	height: 2.08rem;
+	line-height: 2.08rem;
+	padding: 0 0.833rem;
+	background: #f2f2f2;
+	display: inline-block;
+	color: #bfbfbf;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+	font-size: 1.166rem;
+}
+.page_num{
+	height: 2.08rem;
+	line-height: 2.08rem;
+	padding: 0 0.833rem;
+	background: #428bca;
+	display: inline-block;
+	color: #fff;
+	border: 1px solid #428bca;
+	border-radius: 4px;
+	font-size: 1.166rem;
+}
+.next{
+	height: 2.08rem;
+	line-height: 2.08rem;
+	padding: 0 0.833rem;
+	background: #f2f2f2;
+	display: inline-block;
+	color: #bfbfbf;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+	font-size: 1.166rem;
+}
+/*.footer{
+	background: url(../img/bg.jpg) repeat;
+	background-size:100% 100%;
+}*/

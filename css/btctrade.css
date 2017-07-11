@@ -1,0 +1,94 @@
+.cont_bg{
+	width: 100%;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size:100% 100%;
+	/*background: yellow;*/
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.cont_detalis{
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	/*background: #fff;*/
+	/*padding-top: 2%;*/
+	/*padding-top: 2%;*/
+	background: #fff;
+}
+.cont_detalis .title{
+	text-align: center;
+	position: relative;
+	padding: 1.08rem 0;
+}
+.cont_detalis .title .title_text{
+	display:inline-block;
+	position: relative;
+	color: #FFF;
+	background: red;
+	padding: 4px 1.166rem;
+	border-radius: 4px;	
+	font-size: 1.25rem;
+}
+.cont_detalis .title .title_text:before,.title_text:after{
+	content: '';
+	width: 0.833rem;
+	height: 1.333rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.666rem;
+}
+.cont_detalis .title .title_text:before{
+	left: -10%;
+	background: url(../img/span_1.png) no-repeat;
+	background-size:100%;
+}
+.cont_detalis .title .title_text:after{
+	right: -10%;
+	background: url(../img/span_2.png) no-repeat;
+	background-size:100%;
+}
+.cont_detalis .title:before,.title:after{
+	content: '';
+	width: 26%;
+	height: 1px;
+	background: red;
+	top: 50%;
+	margin-top: 0px;
+	position: absolute;
+}
+.cont_detalis .title:before{
+	left: 2%;
+}
+.cont_detalis .title:after{
+	right: 2%;
+}
+
+.obejct{
+	width:100%;
+	/*background: #E03507;*/
+	padding-bottom: 1.666rem;
+	/*margin-bottom: 10px;*/
+}
+.obejct h2{
+	font-size: 1.166rem;	
+	line-height: 2.5rem;
+	color: rgb(255,0,0);
+	font-weight: bold;
+	text-align: center;
+}
+.obejct p{
+	font-size: 1.166rem;
+	line-height: 2rem;
+	text-align: center;
+}
+.reminder{
+	font-size: 1.33rem !important;
+}
+.obejct_last p em{
+	color: rgb(255,0,0);
+	font-style: normal;
+}
+.footer{
+	margin-top: 2%;
+}
